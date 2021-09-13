@@ -1,6 +1,6 @@
 <template>
-    <div class="app"> 
-        <h1>i am app</h1>
+    <div class="app pa-5"> 
+        <router-link to="/vue/profil"><h1>Play game</h1></router-link>
         <router-view></router-view>
     </div>
 </template>

@@ -37716,8 +37716,14 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "app" },
-    [_c("h1", [_vm._v("i am app")]), _vm._v(" "), _c("router-view")],
+    { staticClass: "app pa-5" },
+    [
+      _c("router-link", { attrs: { to: "/vue/profil" } }, [
+        _c("h1", [_vm._v("Play game")])
+      ]),
+      _vm._v(" "),
+      _c("router-view")
+    ],
     1
   )
 }
